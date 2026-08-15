@@ -16,7 +16,8 @@ cask "whisprcatch" do
   desc "Local push-to-talk dictation — hold a key, speak, text lands at your cursor"
   homepage "https://whisper-catch.vercel.app/"
 
-  depends_on macos: ">= :big_sur"
+  # Bare symbol means ">= big_sur"; the string form is deprecated.
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   app "WhisprCatch.app"
