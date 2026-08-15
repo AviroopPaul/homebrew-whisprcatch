@@ -7,8 +7,8 @@
 # Users install with:
 #   brew install --cask AviroopPaul/whisprcatch/whisprcatch
 cask "whisprcatch" do
-  version "0.0.0"
-  sha256 :no_check
+  version "0.4.0"
+  sha256 "73e6f298da62221e8d3d897ceedef0cd076bca8d0022ff4181cad80111eaacff"
 
   url "https://github.com/AviroopPaul/whisper-catch/releases/download/v#{version}/WhisprCatch-#{version}-arm64.dmg",
       verified: "github.com/AviroopPaul/whisper-catch/"
