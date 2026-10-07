@@ -7,8 +7,8 @@
 # Users install with:
 #   brew install --cask AviroopPaul/whisprcatch/whisprcatch
 cask "whisprcatch" do
-  version "0.5.0"
-  sha256 "850337aab9b91be62610ea46985db5445a8696da273570c4925ee1f12a1dedee"
+  version "0.6.0"
+  sha256 "8d71bd58dbf098d845f64585d32ef3da67f6df1a96dbd91201b2869353e9b747"
 
   url "https://github.com/AviroopPaul/whisper-catch/releases/download/v#{version}/WhisprCatch-#{version}-arm64.dmg",
       verified: "github.com/AviroopPaul/whisper-catch/"
@@ -55,6 +55,6 @@ cask "whisprcatch" do
     macOS only re-reads these when an app starts, so after granting them
     quit WhisprCatch and open it again.
 
-    Hold Right Command, speak, release. Menu bar icon shows the state.
+    Hold fn, speak, release. The Catcher at the bottom of the screen shows the state.
   EOS
 end
